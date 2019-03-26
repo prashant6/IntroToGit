@@ -11,7 +11,7 @@
 * some
 * more
 * and
-* more
+* simple
 * bullet 
 * points 
 
