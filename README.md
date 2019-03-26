@@ -13,6 +13,6 @@
 
 https://www.google.co.in
 
-[Google](https://www.google.co.in)
+[Google](https://www.google.com)
 
 [Facebook](https://www.facebook.com)
