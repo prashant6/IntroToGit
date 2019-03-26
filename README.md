@@ -8,13 +8,13 @@
 4. a
 5. list
 
-* some
+* few
 * more
 * and
 * simple
 * bullet 
 * points
-* :) 
+* necessary
 
 https://www.google.co.in
 
