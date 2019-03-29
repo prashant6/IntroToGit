@@ -20,6 +20,7 @@
 13. seeing the status ( git status )
 14. .gitignore file ( to hide critical information)
 15. creating a folder inside a repo ( simply make a folder and create a .gitignore file in it and push )
+16. git init 
 
 <p>master branch</p>
 
