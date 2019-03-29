@@ -25,7 +25,7 @@
 
 <p>merged feat branch into master</p>
 
-* Few good practices*
+* Few good practices
 
 i) always pull changes before merging into a branch
 
