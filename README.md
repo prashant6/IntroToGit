@@ -3,7 +3,7 @@
 <p>Things I learned in git </p>
 
 1. cloning a repository  ( git clone URL )
-2. adding/removing a file to stage area ( git add/rm <file-name> )
+2. adding/removing a file to stage area ( git add/rm "file-name" )
 3. commiting changes ( git commit -m "message" ) 
 4. pushing changes to remote repo ( git push "origin repo-name ( optional)" )
 	*git push -u origin "branch-name"* ( it helps in tracking and pulling from branches )
@@ -25,7 +25,7 @@
 
 <p>merged feat branch into master</p>
 
-* Few good practices*
+* Few good practices
 
 i) always pull changes before merging into a branch
 
