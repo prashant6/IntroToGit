@@ -18,11 +18,6 @@
 * points
 * necessary
 
-line 1
-line 4
-
-this is all rubbish
-
 https://www.google.co.in
 
 [Google](https://www.google.com)
