@@ -18,6 +18,8 @@
 11. git help "command-name"
 12. forking a repo
 13. seeing the status ( git status )
+14. .gitignore file ( to hide critical information)
+
 <p>master branch</p>
 
 <p>merged feat branch into master</p>
