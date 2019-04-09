@@ -27,7 +27,7 @@
 		git checkout -- file-name <br>
 		git checkout -- . (for changes in all files)
   
- 19. ii) 
+   ii) 
 
 <p>master branch</p>
 
