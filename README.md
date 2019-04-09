@@ -3,7 +3,8 @@
 <p>Things I learned in git </p>
 
 1. cloning a repository  ( git clone URL )
-2. adding/removing a file to stage area ( git add/rm "file-name" )
+2. adding/removing a file to stage area ( git add "file-name" )
+   <br>git reset HEAD "filename"
 3. commiting changes ( git commit -m "message" ) 
 4. pushing changes to remote repo ( git push "origin repo-name ( optional)" )
 	<br>*git push -u origin "branch-name"* ( it helps in tracking and pulling from branches )
