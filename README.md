@@ -23,7 +23,7 @@
 16. git init 
 17. to display current head position (cat .git/HEAD)
 18. To undo changes
-19. i) before committing
+19. i) before committing <br>
 		git checkout -- file-name <br>
 		git checkout -- . (for changes in all files)
   
