@@ -21,6 +21,8 @@
 14. .gitignore file ( to hide critical information)
 15. creating a folder inside a repo ( simply make a folder and create a .gitignore file in it and push )
 16. git init 
+17. to display current head position (cat .git/HEAD)
+
 
 <p>master branch</p>
 
