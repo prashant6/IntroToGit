@@ -28,11 +28,12 @@
 		git checkout -- file-name <br>
 		git checkout -- . (for changes in all files)
   
-   ii) after committing<br>
-   		git checkout commit-id (read only) <br>
-   		git revert commit-id (if merge conflicts occur) then solve the conflict and ,<br>
-   		git add file-name ....then <br>
-   		git revert --continue || git revert --abort || git commit -m "message"
+   ii) after committing either (a) or (b)<br>
+   		(a)	git checkout commit-id (read only) <br>
+   		
+   		(b)	git revert commit-id (if merge conflicts occur) then solve the conflict and ,<br>
+   			git add file-name ....then <br>
+   			git revert --continue || git revert --abort || git commit -m "message"
 <p>master branch</p>
 
 <p>merged feat branch into master</p>
