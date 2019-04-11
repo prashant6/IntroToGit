@@ -3,7 +3,7 @@
 <p>Things I learned in git </p>
 
 1. cloning a repository   
-		git clone URL 
+		<div>git clone URL</div>
 2. adding/removing a file to stage area ( git add "file-name" )
    <br>git reset HEAD "filename"
 3. commiting changes ( git commit -m "message" ) 
