@@ -2,18 +2,24 @@
 
 <p>Things I learned in git </p>
 
-1. cloning a repository   
-		(a) git clone URL
-2. adding/removing a file to stage area ( git add "file-name" )
+1. cloning a repository   <br>
+	git clone URL
+2. adding/removing a file to stage area 
+	git add "file-name" <br>
    <br>git reset HEAD "filename"
-3. commiting changes ( git commit -m "message" ) 
-4. pushing changes to remote repo ( git push "origin repo-name ( optional)" )
+3. commiting changes <br>
+	git commit -m "message"  
+4. pushing changes to remote repo <br>
+	git push "origin repo-name ( optional)" 
 	<br>*git push -u origin "branch-name"* ( it helps in tracking and pulling from branches )
-5. pulling changes from remote repository ( git pull )
-6. seeing the log ( git log "--pretty=oneline(optional)" )
-7. creating a branch ( git branch "branch-name") 
+5. pulling changes from remote repository <br>
+	git pull <br>
+6. seeing the log 
+	git log "--pretty=oneline(optional)" <br>
+7. creating a branch <br>
+	git branch "branch-name"<br>
 8. switching to another branch ( git checkout branch-name)
-9. merging branch-A into branch-B ( git merge branch-A "currently we are in branch-B ")
+9. <br>merging branch-A into branch-B ( git merge branch-A "currently we are in branch-B ")<br>
 10. deleting a branch 
 	10 i) git branch -d "branch-name" ( it will delete locally ) <br>
 	10 ii) git push origin --delete "branch-name" ( it will delete from remote site)
@@ -25,16 +31,16 @@
 16. git init 
 17. to display current head position (cat .git/HEAD)
 18. To undo changes
-19. i) before committing <br>
+18. i) before committing <br>
 		git checkout -- file-name <br>
 		git checkout -- . (for changes in all files)
   
-   ii) after committing either (a) or (b)<br>
+   ii) after committing either (a) or (b)
    		
-   		(a)	git checkout commit-id (read only) <br>
+   		(a)	git checkout commit-id (read only)
    		
-   		(b)	git revert commit-id (if merge conflicts occur) then solve the conflict and ,<br>
-   			git add file-name ....then <br>
+   		(b)	git revert commit-id (if merge conflicts occur) then solve the conflict and ,
+   			git add file-name ....then 
    			git revert --continue || git revert --abort || git commit -m "message"
 <p>master branch</p>
 
