@@ -6,7 +6,7 @@
 	git clone URL
 2. adding/removing a file to stage area <br>
 	git add "file-name"
-   <br>git reset HEAD "filename"
+   <br>git reset HEAD "filename"  (for unstaging file)
 3. commiting changes <br>
 	git commit -m "message"  
 4. pushing changes to remote repo <br>
@@ -19,13 +19,15 @@
 7. creating a branch <br>
 	git branch "branch-name"<br>
 8. switching to another branch ( git checkout branch-name)
-9. <br>merging branch-A into branch-B ( git merge branch-A "currently we are in branch-B ")<br>
+9. merging branch-A into branch-B <br>
+	git merge branch-A (currently we are in branch-B )<br>
 10. deleting a branch 
 	10 i) git branch -d "branch-name" ( it will delete locally ) <br>
 	10 ii) git push origin --delete "branch-name" ( it will delete from remote site)
 11. git help "command-name"
 12. forking a repo
-13. seeing the status ( git status )
+13. seeing the status 
+	git status 
 14. .gitignore file ( to hide critical information)
 15. creating a folder inside a repo ( simply make a folder and create a .gitignore file in it and push )
 16. git init 
