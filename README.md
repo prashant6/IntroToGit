@@ -4,8 +4,8 @@
 
 1. cloning a repository   <br>
 	git clone URL
-2. adding/removing a file to stage area 
-	git add "file-name" <br>
+2. adding/removing a file to stage area <br>
+	git add "file-name"
    <br>git reset HEAD "filename"
 3. commiting changes <br>
 	git commit -m "message"  
