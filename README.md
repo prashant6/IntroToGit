@@ -46,7 +46,8 @@
    			git revert --continue || git revert --abort || git commit -m "message"
 
    		(c) git reset --soft||mixed||hard commit-id
-   	iii) after pushing the commits 
+   		
+   iii) after pushing the commits 
    		git revert commit-id-from..commit-id-to
    		git push
 <p>master branch</p>
