@@ -29,6 +29,7 @@
 		git checkout -- . (for changes in all files)
   
    ii) after committing either (a) or (b)<br>
+   		
    		(a)	git checkout commit-id (read only) <br>
    		
    		(b)	git revert commit-id (if merge conflicts occur) then solve the conflict and ,<br>
