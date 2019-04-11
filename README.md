@@ -37,13 +37,15 @@
 		git checkout -- file-name <br>
 		git checkout -- . (for changes in all files)
   
-   ii) after committing either (a) or (b)
+   ii) after committing any one (a) or (b) or (c)
    		
    		(a)	git checkout commit-id (read only)
    		
    		(b)	git revert commit-id (if merge conflicts occur) then solve the conflict and ,
    			git add file-name ....then 
    			git revert --continue || git revert --abort || git commit -m "message"
+
+   		(c) git reset --soft||mixed||hard commit-id
 <p>master branch</p>
 
 <p>merged feat branch into master</p>
