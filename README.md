@@ -14,11 +14,12 @@
 	<br>*git push -u origin "branch-name"* ( it helps in tracking and pulling from branches )
 5. pulling changes from remote repository <br>
 	git pull <br>
-6. seeing the log 
-	git log "--pretty=oneline(optional)" <br>
+6. seeing the log <br>
+	git log --oneline <br>
 7. creating a branch <br>
 	git branch "branch-name"<br>
-8. switching to another branch ( git checkout branch-name)
+8. switching to another branch <br>
+	git checkout branch-name 
 9. merging branch-A into branch-B <br>
 	git merge branch-A (currently we are in branch-B )<br>
 10. deleting a branch <br>
@@ -26,12 +27,13 @@
 	git push origin --delete "branch-name" ( it will delete from remote site)
 11. git help "command-name"
 12. forking a repo
-13. seeing the status 
+13. seeing the status <br>
 	git status 
 14. .gitignore file ( to hide critical information)
 15. creating a folder inside a repo ( simply make a folder and create a .gitignore file in it and push )
 16. git init 
-17. to display current head position (cat .git/HEAD)
+17. to display current head position <br>
+	cat .git/HEAD 
 18. To undo changes
 18. i) before committing <br>
 		git checkout -- file-name <br>
