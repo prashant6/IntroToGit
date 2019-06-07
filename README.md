@@ -34,8 +34,12 @@
 16. git init 
 17. to display current head position <br>
 	cat .git/HEAD 
+18. To unstage a file (after git add FILENAME)
+	git reset HEAD file-name
+	and then
+	git checkout file-name
 18. To undo changes
-18. i) before committing <br>
+19. i) before committing <br>
 		git checkout -- file-name <br>
 		git checkout -- . (for changes in all files)
   
