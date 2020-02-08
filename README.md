@@ -1,13 +1,13 @@
 # IntroToGit
 
 <p>Things I learned in git </p> <br>
-<p> To set your global username and email <br>
-	&nbsp;git config --global user.name "USERNAME" <br>
-	&nbsp;git config --global user.email "USER_EMAIL"<br>
-To set repostirory specific username/email <br>
-	&nbsp;git config user.name "USERNAME" <br>
-	&nbsp;git config user.email "USER_EMAIL"
-</p><br>
+<p><pre>To set your global username and email 
+	git config --global user.name "USERNAME" 
+	git config --global user.email "USER_EMAIL"
+To set repostirory specific username/email 
+	git config user.name "USERNAME" 
+	git config user.email "USER_EMAIL"
+</pre></p><br>
 		
 1. cloning a repository   <br>
 	git clone URL
