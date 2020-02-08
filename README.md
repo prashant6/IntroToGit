@@ -2,12 +2,12 @@
 
 <p>Things I learned in git </p> <br>
 <p> To set your global username and email <br>
-	<p>git config --global user.name "USERNAME"</p> <br>
-	<p>git config --global user.email "USER_EMAIL"</p> <br>
+	&emsp;git config --global user.name "USERNAME" <br>
+	&emsp;git config --global user.email "USER_EMAIL"<br>
 To set repostirory specific username/email <br>
-	<p>git config user.name "USERNAME"</p> <br>
-	<p>git config user.email "USER_EMAIL"</p>
-	</p><br>
+	&emsp;git config user.name "USERNAME" <br>
+	&emsp;git config user.email "USER_EMAIL"
+</p><br>
 		
 1. cloning a repository   <br>
 	git clone URL
