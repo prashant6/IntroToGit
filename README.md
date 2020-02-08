@@ -6,7 +6,8 @@
 	git config --global user.email "USER_EMAIL"<br>
 To set repostirory specific username/email <br>
 	git config user.name "USERNAME" <br>
-	git config user.email "USER_EMAIL"<p><br>
+	git config user.email "USER_EMAIL"</p><br>
+		
 1. cloning a repository   <br>
 	git clone URL
 2. adding/removing a file to stage area <br>
