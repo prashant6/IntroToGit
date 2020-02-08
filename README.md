@@ -1,7 +1,12 @@
 # IntroToGit
 
-<p>Things I learned in git </p>
-
+<p>Things I learned in git </p> <br>
+<p> To set your global username and email
+	git config --global user.name "USERNAME"
+	git config --global user.email "USER_EMAIL"<br>
+To set repostirory specific username/email
+	git config user.name "USERNAME"
+	git config user.email "USER_EMAIL"<p><br>
 1. cloning a repository   <br>
 	git clone URL
 2. adding/removing a file to stage area <br>
