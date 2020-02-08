@@ -1,6 +1,6 @@
 # IntroToGit
 
-<p>Things I learned in git </p> <br>
+<p>Things I learned in git </p> 
 <p><pre>To set your global username and email 
 	git config --global user.name "USERNAME" 
 	git config --global user.email "USER_EMAIL"
